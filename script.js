@@ -1,4 +1,4 @@
-alert("NÃO É UM JOGO DA MEMÓRIA")
+alert("Teste upload")
 
 var cards  = document.getElementsByClassName('card');
 
