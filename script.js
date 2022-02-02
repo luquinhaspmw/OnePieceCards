@@ -1,4 +1,4 @@
-alert("Teste upload")
+alert("Teste uploa")
 
 var cards  = document.getElementsByClassName('card');
 
