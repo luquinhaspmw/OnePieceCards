@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.cards {
+  width: 100%;
+  background: #36312E;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: black;
+  width: 32.33%;
+  margin-bottom: 10px;
+  height: 300px;
+  position: relative;
+  -webkit-transition: .6s;
+  transition: .6s;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.github {
+  position: absolute;
+  top: -6%;
+  left: 2%;
+  color: black;
+  background: white;
+  border-radius: 0px 0px 5px 5px;
+  padding: 10px;
+  font-size: 1.8rem;
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+
+.github:hover {
+  top: 0;
+}
+
+.instagram {
+  position: absolute;
+  top: -6%;
+  left: 8%;
+  color: black;
+  background: white;
+  border-radius: 0px 0px 5px 5px;
+  padding: 10px;
+  font-size: 1.8rem;
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+
+.instagram:hover {
+  top: 0;
+}
+
+img {
+  width: 100%;
+  background-size: cover;
+  height: 100%;
+}
+
+.icon {
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 48%;
+  left: 47%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 800px) {
+  .cards {
+    height: auto;
+  }
+  .github {
+    top: 0;
+  }
+  .instagram {
+    top: 0;
+    left: 18%;
+  }
+  .card {
+    width: 45%;
+  }
+}
+
+@media (max-width: 600px) {
+  .cards {
+    height: auto;
+  }
+  .github {
+    top: 0;
+  }
+  .instagram {
+    top: 0;
+    left: 18%;
+  }
+  .card {
+    width: 90%;
+  }
+}
